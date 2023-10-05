@@ -1,0 +1,28 @@
+.bars {
+   width: 50.4px;
+   height: 44.8px;
+   --c: linear-gradient(#edc4cc 0 0);
+   background: var(--c) 0% 100%, var(--c) 50% 100%, var(--c) 100% 100%;
+   background-size: 10.1px 100%;
+   background-repeat: no-repeat;
+   animation: bars-mbi2jdmd 0.8s infinite linear;
+   margin-top: 3em;
+}
+
+@keyframes bars-mbi2jdmd {
+   20% {
+      background-size: 10.1px 60%, 10.1px 100%, 10.1px 100%;
+   }
+
+   40% {
+      background-size: 10.1px 80%, 10.1px 60%, 10.1px 100%;
+   }
+
+   60% {
+      background-size: 10.1px 100%, 10.1px 80%, 10.1px 60%;
+   }
+
+   80% {
+      background-size: 10.1px 100%, 10.1px 100%, 10.1px 80%;
+   }
+}

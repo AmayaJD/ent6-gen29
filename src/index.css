@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-image: url("../images2.avif");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+#root{
+    /* position: relative;
+    height: 100vh; */
+}
+
+.container__app{
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+}
+
+ a{
+    /* display: inline; */
+}

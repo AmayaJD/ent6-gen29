@@ -1,0 +1,36 @@
+.container_homePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75vw;
+    gap: 1.5em;
+    margin: 4em 0;
+}
+
+.homePage__search{
+    display: flex;
+}
+
+    .homePage__form{
+        
+    }
+    .homePage__input{
+        background: none;
+        border-color: rgb(70, 16, 16) ;
+        border-radius: 8px 0px 0px 8px;
+        border-right: none;
+        padding: .2em .8em;
+        font-size: 22px;
+
+    }
+
+    .homePage__select{
+
+        background-color: rgba(255, 255, 255, 0.264);
+
+    }
+.container__homePage__trackCard{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}

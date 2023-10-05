@@ -1,0 +1,30 @@
+.container__trackList{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    width: 90%;
+    justify-content: flex-start;
+}
+
+.trackList__img{
+    width: 65px;
+}
+
+.trackList__info{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.trackList__artist{
+    list-style: none;
+}
+
+.trackList__footer{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}

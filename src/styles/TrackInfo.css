@@ -1,0 +1,36 @@
+.conatiner_trackInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.trackInfo__info{
+    display: flex;
+    gap: 1em;
+    padding: .5em;
+    border: 4px solid #EDC4CC;
+    border-radius: 8px;
+}
+
+.trackInfo__img{
+    border-radius: 50%;
+    width: 150px;
+}
+
+.trackInfo__descri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trackInfo__songs{
+    padding: 0 1em;
+}
+.trackInfo__artist{
+    margin: 0.5em 0;
+}
+
+.trackinfo__data{
+    margin-top: 0.5em;
+}

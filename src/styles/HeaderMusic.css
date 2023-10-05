@@ -1,0 +1,109 @@
+.headerMusic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(67, 50, 56);
+    height: 60px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    margin-left: 1em;
+    /* height: 100%; */
+}
+
+.headerM__option{
+    display: flex;
+    gap: 1em;
+    margin-right: 1em;
+}
+
+.headerM__btnOption{
+    color: white;
+    background-color: #433238;
+    border-radius: 12px;
+    padding: .5em;
+    font-size: 18px;
+}
+
+.headerM__btnPlayList{
+    /* position: absolute; */
+    color: white;
+    background-color: #433238;
+    border-radius: 12px;
+    /* top: 15px; */
+    /* right: 5%; */
+    padding: .5em;
+    font-size: 18px;
+}
+
+.container_headerM{
+    width: inherit;
+    height: 100vh;
+    position: fixed;
+    right: -100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.active_container_headerM{
+    width: 22vw;
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    bottom: 0;
+    padding: 3.5em .3em .3em .3em;
+    background-color:  rgb(67, 50, 56);
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    /* background-color: #0000006e; */
+}
+
+/* .container_headerM{
+    display: flex;
+    width: min-content;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+.headerM__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.headerM__btnClose{
+    background-color:  rgb(67, 50, 56);
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.headerM__containerInput{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+}
+
+    .headerM__input{
+        display: flex;
+        flex-direction: column;
+    }
+
+.headerM__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+
+.headerM__btn{
+    padding: .5em;
+}
+

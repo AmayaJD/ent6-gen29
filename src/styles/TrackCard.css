@@ -1,0 +1,48 @@
+.container_trackCard{
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+    position: relative;
+    background-color: #EDC4CC;
+}
+
+.trackCard__img{
+    width: 150px;
+}
+
+.trackCard__info{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+    .trackCard__song{
+        margin-top: .5em;
+    }
+    .trackCard__ulArtist{
+        display: flex;
+        flex-direction: column;
+        gap: .5em;
+    }
+    .trackCard__artist{
+        list-style: none;
+    }
+
+.trackCard__footer{
+    position: absolute;
+    /* top: 6.5em; */
+    top: 5.4em;
+    font-size: 24px;
+    right: 1.3em;
+    display: flex;
+    gap: .5em;
+}
+
+    .trackCard__btn{
+        font-size: 1.4em;
+        cursor: pointer;
+        border: none;
+        background-color: #EDC4CC;
+    }

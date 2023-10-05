@@ -1,0 +1,42 @@
+
+.container_tracksRelated{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 35%;
+}
+
+.tracksRelated__components{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+
+.active__tracksRelated__components{
+    
+}
+
+ /* .container_headerM{
+    width: inherit;
+    height: 100vh;
+    position: fixed;
+    right: -100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.active_container_headerM{
+    width: 22vw;
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    bottom: 0;
+    padding: 3.5em .3em .3em .3em;
+    background-color:  rgb(67, 50, 56);
+    color: rgb(255, 255, 255);
+    background-color: #0000006e;
+} */

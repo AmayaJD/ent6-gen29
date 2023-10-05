@@ -1,0 +1,19 @@
+.container__artistPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    position: relative;
+    gap: .5em;
+}
+
+.artistPage__btn{
+    background-color: #433238;
+    padding: 1em;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 10%;
+    top: 1%;
+}
